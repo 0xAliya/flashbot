@@ -1,0 +1,21 @@
+{
+  "name": "flashbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "esno index.ts",
+    "build": "tsc index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1"
+  },
+  "devDependencies": {
+    "esno": "^4.7.0",
+    "typescript": "^5.4.2"
+  }
+}
