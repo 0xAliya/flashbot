@@ -44,7 +44,7 @@ const main = async () => {
       transaction: {
         to: executor.address,
         value: gasEstimateTotal * gasPrice,
-        gasLimit: gasEstimateTotal,
+        gasLimit: 21000,
         maxPriorityFeePerGas: 102677274,
         maxFeePerGas: gasPrice,
         chainId: 11155111
